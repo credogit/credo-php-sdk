@@ -1,0 +1,25 @@
+{
+    "name": "credoteam/credo",
+    "description": "This package is for communicating with CREDO API",
+    "type": "library",
+    "keywords": ["payment","credo", "php"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {"Credoteam\\Credo\\": "src/"}
+    },
+    "authors": [
+        {
+            "name": "Credo Team",
+            "email": "credoteam@gmail.com",
+            "homepage": "https://credo.nugitech.com"
+        }
+    ],
+    "require": {
+      "credoteam/credo": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {"type": "composer", "url": "https://repo.packagist.com/godswill/"},
+        {"packagist.org": false}
+    ]
+}
