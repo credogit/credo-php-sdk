@@ -21,7 +21,6 @@
         "forum": "https://docs.credocentral.com/slack",
         "docs": "https://docs.credocentral.com/"
     },
-    "minimum-stability": "dev",
     "repositories": [
         {"type": "composer", "url": "https://repo.packagist.com/godswill/"},
         {"packagist.org": false}
