@@ -4,6 +4,8 @@
     "type": "library",
     "keywords": ["payment","credo", "php"],
     "license": "MIT",
+    "homepage": "https://credocentral.com",
+    "time": "2022-02-09",
     "autoload": {
         "psr-4": {"Credoteam\\Credo\\": "src/"}
     },
@@ -14,6 +16,11 @@
             "homepage": "https://credocentral.com"
         }
     ],
+     "support": {
+        "email": "hello@credocentral.com",
+        "forum": "https://docs.credocentral.com/slack",
+        "docs": "https://docs.credocentral.com/slack"
+    },
     "minimum-stability": "dev",
     "repositories": [
         {"type": "composer", "url": "https://repo.packagist.com/godswill/"},
