@@ -19,7 +19,7 @@
      "support": {
         "email": "hello@credocentral.com",
         "forum": "https://docs.credocentral.com/slack",
-        "docs": "https://docs.credocentral.com/slack"
+        "docs": "https://docs.credocentral.com/"
     },
     "minimum-stability": "dev",
     "repositories": [
