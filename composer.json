@@ -1,6 +1,6 @@
 {
     "name": "credoteam/credo",
-    "description": "This package is for communicating with CREDO API",
+    "description": "This package is for communicating with CredoCentral.com API",
     "type": "library",
     "keywords": ["payment","credo", "php"],
     "license": "MIT",
@@ -9,9 +9,9 @@
     },
     "authors": [
         {
-            "name": "Credo Team",
-            "email": "credoteam@gmail.com",
-            "homepage": "https://credo.nugitech.com"
+            "name": "CredoCentral",
+            "email": "hello@credocentral.com",
+            "homepage": "https://credocentral.com"
         }
     ],
     "require": {
