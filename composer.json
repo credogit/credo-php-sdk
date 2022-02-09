@@ -14,9 +14,6 @@
             "homepage": "https://credocentral.com"
         }
     ],
-    "require": {
-      "credoteam/credo": "dev-master"
-    },
     "minimum-stability": "dev",
     "repositories": [
         {"type": "composer", "url": "https://repo.packagist.com/godswill/"},
