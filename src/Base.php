@@ -20,7 +20,7 @@
 	{
 
 		private
-			$_apiBaseUrl = 'https://credo-payments.nugitech.com/v1/', // with trailing slash
+			$_apiBaseUrl = 'https://api.credocentral.com/credo-payment/v1/', // with trailing slash
 			$_curl,
 			$_secretKey,
 			$_endPoint,
