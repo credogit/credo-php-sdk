@@ -20,7 +20,7 @@ Just to name a few, it is only the Transaction Resource that is made available c
 ### Via Composer
 
 ``` bash
-$ composer require credoteam/credo
+$ composer require credoteam/credo:dev-main
 ```
 If you use a Framework, check your documentation for how vendor packages are autoloaded else Add this to the top of your source file;
 
