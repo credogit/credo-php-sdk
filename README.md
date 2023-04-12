@@ -47,7 +47,7 @@ $Transaction = new Transaction( $publicKey );
 
 ### Initializing Transaction
 
-Set data/payload/requestBody to post with initialize request. Minimum required data are email and amount.
+Set data/payload/requestBody to post with initiate request. Minimum required data are email and amount.
 
 ``` php
 // Set data to post using array
@@ -62,16 +62,16 @@ $data = [
   "customerPhoneNo"=> "09021960905"
 ];
 
-$response = $Transaction->initialize($data);
+$response = $Transaction->initiate($data);
 ```
-If you want to get the 200OK raw Object as it is sent by Credo, Set the 2nd argument of the `initialize()` to `true`, example below
+If you want to get the 200OK raw Object as it is sent by Credo, Set the 2nd argument of the `initiate()` to `true`, example below
 ``` php
 // Set data to post using this method
 $response =
         $Transaction
             ->setEmail( 'adiegodswill17@gmail.com' )
             ->setAmount( 23000 )
-            ->initialize([], true);
+            ->initiate([], true);
 ```
 Now do a redirect to payment page (using redirectUrl)
 <br>
